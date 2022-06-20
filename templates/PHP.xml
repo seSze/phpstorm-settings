@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="&gt;" value="'$KEY$' =&gt; $VALUE$" description="Array item" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

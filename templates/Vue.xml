@@ -1,0 +1,19 @@
+<templateSet group="Vue">
+  <template name="computed" value="const $var$ = computed(() =&gt; {$END$})" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="props" value="const props = defineProps&lt;$END$&gt;()" description="Define props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="acomp" value="const $NAME$ = defineAsyncComponent(() =&gt; import('./$NAME$.vue'))" description="Async component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
